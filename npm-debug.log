@@ -1,0 +1,251 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'less' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'less', null ]
+7 verbose cache add spec less
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'less',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'less',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed less@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for less
+11 info addNameTag [ 'less', 'latest' ]
+12 silly mapToRegistry name less
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'less',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'less',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/less
+17 verbose addNameTag registry:https://registry.npmjs.org/less not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/less
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 2:02:22 PM
+21 verbose request id 437145ef9dae6870
+22 http request GET https://registry.npmjs.org/less
+23 http 200 https://registry.npmjs.org/less
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"8WXBIW80Z3M9J7IU0SSXFTB3R"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '14368',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Tue, 30 Aug 2016 21:02:21 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '173',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sjc3631-SJC',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1472590941.784810,VS0,VE0',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"8WXBIW80Z3M9J7IU0SSXFTB3R"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '14368',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 30 Aug 2016 21:02:21 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '173',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sjc3631-SJC',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1472590941.784810,VS0,VE0',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving less to /Users/ryan2013/.npm/registry.npmjs.org/less/.cache.json
+27 verbose correctMkdir /Users/ryan2013/.npm correctMkdir not in flight; initializing
+28 verbose makeDirectory /Users/ryan2013/.npm creation not in flight; initializing
+29 silly makeDirectory /Users/ryan2013/.npm uid: 502 gid: 20
+30 silly addNameTag next cb for less with tag latest
+31 silly addNamed less@2.7.1
+32 verbose addNamed "2.7.1" is a plain semver version for less
+33 silly mapToRegistry name less
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry data Result {
+36 silly mapToRegistry   raw: 'less',
+36 silly mapToRegistry   scope: null,
+36 silly mapToRegistry   name: 'less',
+36 silly mapToRegistry   rawSpec: '',
+36 silly mapToRegistry   spec: 'latest',
+36 silly mapToRegistry   type: 'tag' }
+37 silly mapToRegistry uri https://registry.npmjs.org/less
+38 verbose addRemoteTarball https://registry.npmjs.org/less/-/less-2.7.1.tgz not in flight; adding
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/less/-/less-2.7.1.tgz',
+39 verbose addRemoteTarball   '6cbfea22b3b830304e9a5fb371d54fa480c9d7cf' ]
+40 info retry fetch attempt 1 at 2:02:22 PM
+41 info attempt registry request try #1 at 2:02:22 PM
+42 http fetch GET https://registry.npmjs.org/less/-/less-2.7.1.tgz
+43 http fetch 200 https://registry.npmjs.org/less/-/less-2.7.1.tgz
+44 silly fetchAndShaCheck shasum 6cbfea22b3b830304e9a5fb371d54fa480c9d7cf
+45 verbose addTmpTarball /var/folders/2m/wr6q8kjs0nlg9jt095ykx2mr0000gp/T/npm-5082-9fcd89dc/registry.npmjs.org/less/-/less-2.7.1.tgz not in flight; adding
+46 verbose addTmpTarball already have metadata; skipping unpack for less@2.7.1
+47 verbose correctMkdir /Users/ryan2013/.npm correctMkdir not in flight; initializing
+48 silly cache afterAdd less@2.7.1
+49 verbose afterAdd /Users/ryan2013/.npm/less/2.7.1/package/package.json not in flight; writing
+50 verbose correctMkdir /Users/ryan2013/.npm correctMkdir not in flight; initializing
+51 verbose afterAdd /Users/ryan2013/.npm/less/2.7.1/package/package.json written
+52 silly install resolved [ { name: 'less',
+52 silly install resolved     version: '2.7.1',
+52 silly install resolved     description: 'Leaner CSS',
+52 silly install resolved     homepage: 'http://lesscss.org',
+52 silly install resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+52 silly install resolved     contributors: [ [Object] ],
+52 silly install resolved     bugs: { url: 'https://github.com/less/less.js/issues' },
+52 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/less/less.js.git' },
+52 silly install resolved     master:
+52 silly install resolved      { url: 'https://github.com/less/less.js/blob/master/',
+52 silly install resolved        raw: 'https://raw.githubusercontent.com/less/less.js/master/' },
+52 silly install resolved     license: 'Apache-2.0',
+52 silly install resolved     bin: { lessc: './bin/lessc' },
+52 silly install resolved     main: 'index',
+52 silly install resolved     directories: { test: './test' },
+52 silly install resolved     jam: { main: './dist/less.js' },
+52 silly install resolved     browser: './dist/less.js',
+52 silly install resolved     engines: { node: '>=0.12' },
+52 silly install resolved     scripts: { test: 'grunt test' },
+52 silly install resolved     optionalDependencies:
+52 silly install resolved      { errno: '^0.1.1',
+52 silly install resolved        'graceful-fs': '^4.1.2',
+52 silly install resolved        'image-size': '~0.5.0',
+52 silly install resolved        mime: '^1.2.11',
+52 silly install resolved        mkdirp: '^0.5.0',
+52 silly install resolved        promise: '^7.1.1',
+52 silly install resolved        'source-map': '^0.5.3' },
+52 silly install resolved     devDependencies:
+52 silly install resolved      { diff: '^2.2.2',
+52 silly install resolved        grunt: '^1.0.1',
+52 silly install resolved        'grunt-browserify': '^5.0.0',
+52 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+52 silly install resolved        'grunt-contrib-concat': '^1.0.1',
+52 silly install resolved        'grunt-contrib-connect': '^1.0.2',
+52 silly install resolved        'grunt-contrib-jasmine': '^1.0.3',
+52 silly install resolved        'grunt-contrib-jshint': '^1.0.0',
+52 silly install resolved        'grunt-contrib-uglify': '^1.0.1',
+52 silly install resolved        'grunt-jscs': '^2.8.0',
+52 silly install resolved        'grunt-saucelabs': '^8.6.2',
+52 silly install resolved        'grunt-shell': '^1.3.0',
+52 silly install resolved        'jit-grunt': '^0.10.0',
+52 silly install resolved        'time-grunt': '^1.3.0' },
+52 silly install resolved     keywords:
+52 silly install resolved      [ 'compile less',
+52 silly install resolved        'css nesting',
+52 silly install resolved        'css variable',
+52 silly install resolved        'css',
+52 silly install resolved        'gradients css',
+52 silly install resolved        'gradients css3',
+52 silly install resolved        'less compiler',
+52 silly install resolved        'less css',
+52 silly install resolved        'less mixins',
+52 silly install resolved        'less',
+52 silly install resolved        'less.js',
+52 silly install resolved        'lesscss',
+52 silly install resolved        'mixins',
+52 silly install resolved        'nested css',
+52 silly install resolved        'parser',
+52 silly install resolved        'preprocessor',
+52 silly install resolved        'bootstrap css',
+52 silly install resolved        'bootstrap less',
+52 silly install resolved        'style',
+52 silly install resolved        'styles',
+52 silly install resolved        'stylesheet',
+52 silly install resolved        'variables in css',
+52 silly install resolved        'css less' ],
+52 silly install resolved     rawcurrent: 'https://raw.github.com/less/less.js/v',
+52 silly install resolved     sourcearchive: 'https://github.com/less/less.js/archive/v',
+52 silly install resolved     gitHead: 'd3e1531370a36dd6e213c8b4da955d0a0e1d6eb7',
+52 silly install resolved     dependencies:
+52 silly install resolved      { errno: '^0.1.1',
+52 silly install resolved        'graceful-fs': '^4.1.2',
+52 silly install resolved        'image-size': '~0.5.0',
+52 silly install resolved        mime: '^1.2.11',
+52 silly install resolved        mkdirp: '^0.5.0',
+52 silly install resolved        promise: '^7.1.1',
+52 silly install resolved        'source-map': '^0.5.3' },
+52 silly install resolved     _id: 'less@2.7.1',
+52 silly install resolved     _shasum: '6cbfea22b3b830304e9a5fb371d54fa480c9d7cf',
+52 silly install resolved     _from: 'less@latest',
+52 silly install resolved     _npmVersion: '3.8.6',
+52 silly install resolved     _nodeVersion: '6.1.0',
+52 silly install resolved     _npmUser: { name: 'matthew-dean', email: 'matthewdean.me@gmail.com' },
+52 silly install resolved     dist:
+52 silly install resolved      { shasum: '6cbfea22b3b830304e9a5fb371d54fa480c9d7cf',
+52 silly install resolved        tarball: 'https://registry.npmjs.org/less/-/less-2.7.1.tgz' },
+52 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+52 silly install resolved     _npmOperationalInternal:
+52 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+52 silly install resolved        tmp: 'tmp/less-2.7.1.tgz_1462826329455_0.6074283130001277' },
+52 silly install resolved     _resolved: 'https://registry.npmjs.org/less/-/less-2.7.1.tgz' } ]
+53 info install less@2.7.1 into /usr/local/lib
+54 info installOne less@2.7.1
+55 verbose installOne of less to /usr/local/lib not in flight; installing
+56 verbose correctMkdir /Users/ryan2013/.npm/_locks correctMkdir not in flight; initializing
+57 verbose makeDirectory /Users/ryan2013/.npm/_locks creation not in flight; initializing
+58 silly makeDirectory /Users/ryan2013/.npm/_locks uid: 502 gid: 20
+59 verbose lock using /Users/ryan2013/.npm/_locks/less-c2213c903e2e7354.lock for /usr/local/lib/node_modules/less
+60 silly install write writing less 2.7.1 to /usr/local/lib/node_modules/less
+61 verbose unbuild lib/node_modules/less
+62 silly gentlyRm /usr/local/lib/node_modules/less is being purged from base /usr/local
+63 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/less
+64 verbose tar unpack /Users/ryan2013/.npm/less/2.7.1/package.tgz
+65 verbose tar unpacking to /usr/local/lib/node_modules/less
+66 silly gentlyRm /usr/local/lib/node_modules/less is being purged
+67 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/less
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 error tar.unpack untar error /Users/ryan2013/.npm/less/2.7.1/package.tgz
+70 verbose unlock done using /Users/ryan2013/.npm/_locks/less-c2213c903e2e7354.lock for /usr/local/lib/node_modules/less
+71 verbose fstream_path /usr/local/lib/node_modules/less
+72 verbose fstream_type Directory
+73 verbose fstream_class DirWriter
+74 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/less'
+74 verbose stack     at Error (native)
+75 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+75 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+75 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+76 verbose cwd /Users/ryan2013/Desktop/KariGiberson/PersonalSite/Kgiberson.github.io
+77 error Darwin 13.4.0
+78 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "less"
+79 error node v4.5.0
+80 error npm  v2.15.9
+81 error path /usr/local/lib/node_modules/less
+82 error code EACCES
+83 error errno -13
+84 error syscall mkdir
+85 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/less'
+85 error     at Error (native)
+85 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/less']
+85 error   errno: -13,
+85 error   code: 'EACCES',
+85 error   syscall: 'mkdir',
+85 error   path: '/usr/local/lib/node_modules/less',
+85 error   fstream_type: 'Directory',
+85 error   fstream_path: '/usr/local/lib/node_modules/less',
+85 error   fstream_class: 'DirWriter',
+85 error   fstream_stack:
+85 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+85 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+85 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+86 error Please try running this command again as root/Administrator.
+87 verbose exit [ -13, true ]
+88 verbose unbuild lib/node_modules/less
+89 silly gentlyRm /usr/local/lib/node_modules/less is being purged from base /usr/local
+90 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/less
