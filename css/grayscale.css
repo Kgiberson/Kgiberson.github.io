@@ -295,7 +295,7 @@ a:focus {
 }
 
 .btn {
-    border-radius: 0;
+    border-radius: 4px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -375,4 +375,8 @@ body {
 #about-me-img {
     width: 400px;
     height: auto;
+}
+
+#send {
+    background-color: #42dca3;
 }
