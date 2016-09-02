@@ -262,7 +262,7 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.portfolio-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
@@ -285,7 +285,7 @@ a:focus {
         padding-top: 150px;
     }
 
-    .download-section {
+    .portfolio-section {
         padding: 100px 0;
     }
 
@@ -380,4 +380,10 @@ body {
 
 #send {
     background-color: #42dca3;
+}
+
+h3.portfolio-title {
+    font-family: "Cormorant Garamond", serif;
+    text-transform: none;
+    text-align: left;
 }
