@@ -381,3 +381,9 @@ body {
 #send {
     background-color: #42dca3;
 }
+
+h3.portfolio-title {
+    font-family: "Cormorant Garamond", serif;
+    text-transform: none;
+    text-align: left;
+}
