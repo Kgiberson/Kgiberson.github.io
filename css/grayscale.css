@@ -262,6 +262,7 @@ a:focus {
     padding-top: 100px;
 }
 
+
 .portfolio-section {
     width: 100%;
     padding: 50px 0;
@@ -272,6 +273,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+
 }
 
 #map {
@@ -382,8 +384,8 @@ body {
     background-color: #42dca3;
 }
 
-h3.portfolio-title {
+/*h3.portfolio-title {
     font-family: "Cormorant Garamond", serif;
     text-transform: none;
     text-align: left;
-}
+}*/
