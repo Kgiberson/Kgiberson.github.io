@@ -6297,7 +6297,7 @@ button.close {
 }
 .carousel-inner > .next,
 .carousel-inner > .prev {
-  position: relative;
+  position: absolute;
   top: 0;
   width: 100%;
 }
