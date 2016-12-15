@@ -403,6 +403,13 @@ body {
     }
 }
 
+@media (min-width: 767px) and (max-width: 1199px) {
+    .carousel {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 /*h3.portfolio-title {
     font-family: "Cormorant Garamond", serif;
     text-transform: none;
