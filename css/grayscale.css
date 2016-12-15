@@ -401,12 +401,27 @@ body {
     h2 {
         margin: 0 0 60px;
     }
+    .carousel {
+        height: 225px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 1199px) {
     .carousel {
         width: 80%;
+        height: 225px;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 766px) {
+    .carousel {
+        width: 90%;
+        margin: 0 auto;
+        height: 250px;
+    }
+    #surf {
+        margin-bottom: 79px;
     }
 }
 
