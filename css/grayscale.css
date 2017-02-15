@@ -325,6 +325,10 @@ a:focus {
     background-color: #42dca3;
 }
 
+.network-name {
+    font-size: .8em;
+}
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
